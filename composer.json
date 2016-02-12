@@ -1,0 +1,32 @@
+{
+    "name" : "test/AppBundle",
+    "description" : "A demo bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "AppBundle",
+        "email" : "laul@llovem.eu"
+    }],
+    "keywords" : [
+        "demo bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.3.9",
+    "symfony/symfony": "2.*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "test\\AppBundle" : ""
+        }
+    },
+    "target-dir" : "test/AppBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "master"
+        }
+    }
+}
