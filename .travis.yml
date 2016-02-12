@@ -6,6 +6,9 @@ php:
 services:
   - mysql
 
+script:
+  - composer install
+
 before_script:
   - composer install
 
