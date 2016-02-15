@@ -1,1 +1,1 @@
-test
+[![Build Status](https://travis-ci.org/llaull/AppBundle.svg?branch=master)](https://travis-ci.org/llaull/AppBundle)
