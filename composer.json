@@ -22,8 +22,7 @@
         }
     },
     "target-dir" : "test/AppBundle",
-    "repositories" : [{
-    }],
+
     "extra" : {
     "branch-alias" : {
             "dev-master" : "master"

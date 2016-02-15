@@ -7,10 +7,10 @@ services:
   - mysql
 
 script:
-  - composer install
+  # - composer install
 
 before_script:
-  - composer install
+  - composer create-project symfony/framework-standard-edition my_project_name "2.*"
 
 notifications:
   email:
