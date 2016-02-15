@@ -2,6 +2,9 @@
 
 <phpunit bootstrap="./Tests/bootstrap.php" colors="true">
     <!-- Les fichiers de tests à lancer -->
+     <php>
+        <server name="KERNEL_DIR" value="./" />
+    </php>
     <testsuites>
         <testsuite name="App Bundle test suite">
             <directory suffix="Test.php">./Tests</directory>
