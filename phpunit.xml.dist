@@ -3,7 +3,7 @@
 <phpunit bootstrap="./Tests/bootstrap.php" colors="true">
     <!-- Les fichiers de tests à lancer -->
      <php>
-        <server name="KERNEL_DIR" value="./" />
+        <server name="KERNEL_DIR" value="Tests/Controller/App" />
     </php>
     <testsuites>
         <testsuite name="App Bundle test suite">
