@@ -4,11 +4,11 @@ php:
     - 5.5
     # - 5.6
 
-sudo: false
+# sudo: false
 
-cache:
-  directories:
-    - $HOME/.composer/cache/files
+# cache:
+  # directories:
+    # - $HOME/.composer/cache/files
 
 # env:
 #   - SYMFONY_VERSION=2.7.*
@@ -25,6 +25,9 @@ before_install:
   - composer self-update
   - if [ "$SYMFONY_VERSION" != "" ]; then composer require "symfony/symfony:${SYMFONY_VERSION}" --no-update; fi;
 
-install: composer update --prefer-source $COMPOSER_FLAGS
+install: 
+  - composer update --prefer-source $COMPOSER_FLAGS
 
-script: phpunit --coverage-text
+script:
+  - phpunit -c app/
+  - phpunit --coverage-text
