@@ -1,5 +1,4 @@
 # Tests/Controller/App/routing.yml
 BeberleiWorkflowBundle:
-    resource: "@BeberleiWorkflowBundle/Controller/"
-    type:     annotation
+    resource: "@AppBundle/Controller/"
     prefix:   /
